@@ -1,0 +1,68 @@
+.Meal {
+  min-height: 100vh;
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+  .question {
+    line-height: 50px !important;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 25px;
+    text-align: justify;
+  }
+
+  img {
+    width: 377px;
+    height: 377px;
+  }
+
+  h1 {
+    font-size: 33px;
+    font-weight: 500;
+  }
+
+  h3 {
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+  .Content {
+    display: flex;
+    padding: 50px;
+  }
+
+  .center {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .infos {
+    margin: 20px 0px;
+  }
+
+
+
+  button {
+    background-color: #33C3F0;
+    border-radius: 6px;
+    color: #fff;
+    padding: 10px 30px;
+    
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .soft {
+    line-height: 55px;
+    justify-content: center;
+  }
+
+  .slim {
+    padding-top: 20px;
+    line-height: 30px;
+  }
+}
